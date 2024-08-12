@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossier</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<div>
+    <nav class="navbar">
+        
+        <ul>
+            <label class="logo">
+                <a href="home.html"><img src="glossier logo.png" alt="glossier logo"></a>
+            </label>
+
+            <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-search"></i>
+
+            <div class="topbar">
+            <li>
+                <a href="#" onclick="showSidebar()">
+                    <svg class="hamburger" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                    </svg>
+                </a>
+            </li>
+            <li class="hideOnMobile"><a href="shop.html">Shop</a></li>
+            <li class="hideOnMobile"><a href="glossier.html">Glossier for Good</a></li>
+            <li class="hideOnMobile"><a href="blog.html">Blog</a></li>
+            <li class="hideOnMobile"><a href="reviews.html">Reviews</a></li>
+            <li class="hideOnMobile"><a href="about.html">About</a></li>
+            </div>
+        </ul>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="glossier.html">Glossier for Good</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="about.html">About</a></li>
+    </ul>
+    </nav>
+</div>
+
+    
+    <div class="wrapper-good">
+    <img src="glossier-hp-forgood-desktop-4x.jpeg" width="100%" height="400">
+   
+    <main style="text-align: center; margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 10px; width: 70%;">
+        <strong style="margin-bottom: 20px;">We're committed to making a positive impact on the world. And true to Glossier form, community is at the center of our approach.</strong>
+        <p style="margin-top: 20px; margin-bottom: 20px;">Glossier for Good invests in entrepreneurs and nonprofits expanding the definition of beauty with their products, programs, and initiatives.</p>
+        <p style="margin-top: 20px; margin-bottom: 20px;">Through our projects, including The Glossier Grant Program and charitable Glossier Goods, we're giving underrepresented founders and communities the resources they need to take their work to the next level.</p>
+            <ul style="list-style-type: circle;">
+                <li>The Glossier Grant Program invests in Black beauty entrepreneurs to address legacies of inequity, exclusion, and barriers to fundraising.</li>
+                <li>Each retail store has merchandise benefiting a local nonprofit that supports entrepreneurs and youth, particularly women and people of color. In under 2 years, we've raised over $600,000 for those partners.</li>
+            </ul>
+
+        <br>
+        <strong>Learn about the community organizations.</strong>
+        <br>
+        <em>$5 (or your currency equivalent) of every local merch purchase benefits a community organization.</em>
+
+
+            <div class="carousel-col" style="margin: 30px 50px 50px;">
+                <div class="carousel" data-carousel>
+                    <div class="carousel-buttons">
+                        <button class="carousel-button carousel-button_previous" data-carousel-button-previous>
+                            <span class="fas fa-chevron-circle-left" onclick="prevSlide()">&#10094;</span>
+                        </button>
+                        <button class="carousel-button carousel-button_next" data-carousel-button-next>
+                            <span class="fas fa-chevron-circle-right" onclick="nextSlide()">&#10095;</span>
+                        </button>
+                    </div>
+
+
+            <div class="slides" data-carousel-slides-container>
+              
+             <div class="slide">
+                <img src="Venture Communities.png">
+            </div>
+            <div class="slide">
+                <img src="Hatch.png">
+            </div>
+            <div class="slide">
+                <img src="New Economics for Women.png">
+            </div>
+            <div class="slide">
+                <img src="Radical Partners.png">
+            </div>
+            <div class="slide">
+                <img src="Build Metro DC.png">
+            </div>
+    </div>
+</div>
+
+  <div class="flex-container">
+    <div>
+        <img src="Venture Communities.png" alt="Venture Communities" style="width: 100%" />
+      </div>
+    <div>
+      <img src="Build Metro DC.png" alt="Build Metro" style="width: 100%" />
+    </div>
+    <div>
+      <img src="Radical Partners.png" alt="Radical Partners" style="width: 100%" />
+    </div>
+    <div>
+      <img src="New Economics for Women.png" alt="New Economics for Women" style="width: 100%" />
+    </div>
+    <div>
+      <img src="Hatch.png" alt="Hatch" style="width: 100%" />
+    </div>
+  </div>
+</div>
+
+<div class="scroll-col">
+  <div id="my-scrolling" style="overflow-y:scroll; overflow-x:hidden; height: 300px; margin: auto;">
+    Ventures is a Seattle non-profit that provides access to business training, capital, coaching, and hands-on learning opportunities for entrepreneurs across Washington State with limited resources and unlimited potential. 
+    <br>
+    <br>
+    Build Metro DC is a nonprofit organization that empowers youth with entrepreneurship so they can become the own CEO of their own lives.
+    <br>
+    <br>
+    Radical Partners invest in leaders, mobilizze locals, co-design innovative solutions, and build coalitions to collectively to make communities stronger.
+    <br>
+    <br>
+    New Economics for Women (NEW) is a California-based nonprofit founded in 1985. NEW's mission is to build economic mobility, particularly for Latinas and their families.
+    <br>
+    <br>
+    Hatch's mission, since 2015, is to become the most reliable source of animal protein to America's food banks.
+    </div>
+</div>
+
+    </main>
+</div>  
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h3>ABOUT GLOSSIER</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>HOW CAN WE HELP YOU?</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">Affiliates</a></li>
+                        <li><a href="faq.html">Help & FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Acssessibility</a></li>
+                        <li><a href="#">Supply Chain Transparency</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>FOLLOW US ON SOCIALS</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="width-100 footer2-bacbor">
+            <p class="footer2-content">&copy;2024 Glossier. All Rights Reserved.</p>
+          </div>
+    </footer>
+    
+</body>
+</html>

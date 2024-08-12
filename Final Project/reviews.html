@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossier</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+
+
+<body>
+    
+    <div>
+        <nav class="navbar">
+            
+            <ul>
+                <label class="logo">
+                    <a href="home.html"><img src="glossier logo.png" alt="glossier logo"></a>
+                </label>
+
+                <i class="fa fa-shopping-cart"></i>
+                <i class="fa fa-search"></i>
+
+                <div class="topbar">
+                <li>
+                    <a href="#" onclick="showSidebar()">
+                        <svg class="hamburger" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="hideOnMobile"><a href="shop.html">Shop</a></li>
+                <li class="hideOnMobile"><a href="glossier.html">Glossier for Good</a></li>
+                <li class="hideOnMobile"><a href="blog.html">Blog</a></li>
+                <li class="hideOnMobile"><a href="reviews.html">Reviews</a></li>
+                <li class="hideOnMobile"><a href="about.html">About</a></li>
+                </div>
+            </ul>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="glossier.html">Glossier for Good</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="about.html">About</a></li>
+        </ul>
+        </nav>
+    </div>
+
+
+<div class="wrapper-rev">
+    <img src="Reviews Header Image.jpg" width="100%" height="300">
+
+        <h3 style="text-align: center;">Review</h3>
+
+        <br>
+
+        <div class="dropdown" style="text-align: center;">
+        <label for="dropdown">Filter By:</label>
+        <br>
+            <select name="dropdown" id="dropdown">
+            <option value="Get-Ready">Get Ready with Glossier</option>
+            <option value="product-review">Reviews</option>z
+            <option value="products" selected>Product</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div class="video-review" style="margin: auto; text-align: center; margin-bottom: 20px;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/35dEtiWj9L0?si=gGA3f6Pp4oayEmHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tSW98ZnT3Tg?si=3qdBVi7oWEBNUUyG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-QfaS_pcxgY?si=h6kNGMMippwbicts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/m18FRC9YKcY?si=ndNfm87ehw6VSv8e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fsPUaTvIERs?si=zVxxFbpA7x9cczeT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wcltGarrTbQ?si=6FccgU6bZiD4YdAP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>  
+</div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h3>ABOUT GLOSSIER</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>HOW CAN WE HELP YOU?</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">Affiliates</a></li>
+                        <li><a href="faq.html">Help & FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Acssessibility</a></li>
+                        <li><a href="#">Supply Chain Transparency</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>FOLLOW US ON SOCIALS</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="width-100 footer2-bacbor">
+            <p class="footer2-content">&copy;2024 Glossier. All Rights Reserved.</p>
+          </div>
+    </footer>
+    
+
+</body>
+</html>
