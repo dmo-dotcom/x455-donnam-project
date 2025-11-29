@@ -586,7 +586,18 @@ ul{
         width: 100%;
     }
     }
+/* Desktop defaults (important!) */
+.sidebar {
+    display: none;
+}
 
+.hamburger {
+    display: none;   /* hides hamburger on desktop */
+}
+
+.topbar .hideOnMobile {
+    display: inline-block; /* show full menu on desktop */
+}
 @media (max-width: 768px) {
 
     /* Hide desktop menu items */
