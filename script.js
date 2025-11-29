@@ -1,3 +1,4 @@
+script
 
    /* Nav Bar Side Bar */
    function showSidebar(){
